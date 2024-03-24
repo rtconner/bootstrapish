@@ -1,0 +1,16 @@
+
+.alert {
+  @apply rounded-md p-4 border
+}
+.alert-warning {
+  @apply bg-amber-50 text-amber-700 border-amber-500
+}
+.alert-danger {
+  @apply bg-red-50 text-red-700 border-red-500
+}
+.alert-success {
+  @apply bg-green-50 text-green-700 border-green-500
+}
+.alert-info{
+  @apply bg-cyan-50 text-cyan-700 border-cyan-500
+}

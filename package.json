@@ -2,7 +2,7 @@
   "name": "bootstrapish",
   "version": "0.0.0",
   "description": "Tailwind CSS classes grouped together into bootstrap class names",
-  "main": "index.js",
+  "sass": "scss/bootstrapish.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/DealerZone/bootstrapish/issues"
   },
-  "homepage": "https://github.com/DealerZone/bootstrapish#readme"
+  "homepage": "https://github.com/DealerZone/bootstrapish#readme",
+  "files": [
+    "scss/**/*.scss"
+  ]
 }

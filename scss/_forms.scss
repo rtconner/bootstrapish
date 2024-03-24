@@ -1,0 +1,24 @@
+
+label {
+  @apply inline-block;
+}
+
+.form-label {
+  @apply text-sm font-medium leading-6 text-gray-900;
+}
+
+.form-control {
+  @apply block w-full rounded-md border border-gray-500 py-1.5 text-gray-900 shadow-sm ring-0 placeholder:text-gray-200 sm:text-sm sm:leading-6;
+
+  &:focus {
+    @apply ring-4 ring-slate-300 border-black
+  }
+
+  &.form-control-lg {
+    @apply text-xl py-3;
+  }
+
+  &.form-control-sm {
+    @apply text-xs py-1.5;
+  }
+}

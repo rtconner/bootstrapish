@@ -1,0 +1,46 @@
+
+.table {
+  @apply min-w-full divide-y divide-gray-300;
+
+  thead {
+    @apply bg-gray-50;
+
+    th {
+      @apply px-3 py-3.5 text-left font-semibold;
+    }
+  }
+
+  tbody {
+    @apply divide-y divide-gray-200 bg-white;
+
+    td {
+      @apply whitespace-nowrap px-3 py-4 text-sm;
+    }
+  }
+}
+
+.table-sm {
+  thead {
+    th {
+      @apply px-2 py-2
+    }
+  }
+
+  tbody {
+    td {
+      @apply px-1.5 py-2 text-xs;
+    }
+  }
+}
+
+.table-striped {
+  tr {
+    @apply even:bg-gray-50 odd:bg-white;
+  }
+}
+
+.table-hover {
+  tr {
+    @apply hover:bg-gray-100;
+  }
+}

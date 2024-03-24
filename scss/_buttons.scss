@@ -1,0 +1,140 @@
+.btn {
+  @apply cursor-pointer select-none inline-flex justify-center px-4 py-2 items-center text-sm font-medium shadow-sm focus:outline-none focus:ring-1 focus:ring-offset-1 rounded-md border border-transparent;
+
+  &:hover {
+    @apply text-white no-underline;
+  }
+
+  &:disabled {
+    @apply bg-gray-600
+  }
+
+  &.btn-block {
+    @apply block w-full text-center;
+  }
+
+  &.btn-lg {
+    @apply py-3 px-5 text-lg font-medium
+  }
+
+  &.btn-sm {
+    @apply py-1 px-3 text-xs
+  }
+
+  &.btn-md {
+    @apply py-2 px-3 text-base
+  }
+
+}
+
+
+.btn-brand {
+  @apply focus:ring-primary bg-primary text-white dark:text-white dark:border-white dark:border dark:hover:bg-primaryHover;
+
+  &:hover {
+    @apply focus:ring-primaryHover bg-primaryHover;
+  }
+}
+
+.btn-brand-outline {
+  @apply focus:ring-primary bg-white text-primary border-primaryHover;
+
+  &:hover {
+    @apply focus:ring-primaryHover bg-primary text-white;
+  }
+}
+
+.btn-primary {
+  @apply focus:ring-blue-300 bg-blue-600 text-white dark:text-white;
+
+  &:hover {
+    @apply bg-blue-700;
+  }
+}
+.btn-primary-outline {
+  @apply focus:ring-blue-600 bg-white text-blue-600 border-blue-700;
+
+  &:hover {
+    @apply focus:ring-blue-700 bg-blue-600 text-white;
+  }
+}
+
+.btn-warning {
+  @apply focus:ring-yellow-600 bg-yellow-600 text-white dark:text-white;
+
+  &:hover {
+    @apply bg-yellow-700;
+  }
+}
+.btn-warning-outline {
+  @apply focus:ring-yellow-600 bg-white text-yellow-600 border-yellow-700;
+
+  &:hover {
+    @apply focus:ring-yellow-700 bg-yellow-600 text-white;
+  }
+}
+
+
+.btn-danger {
+  @apply focus:ring-red-600 bg-red-600 text-white dark:text-white;
+
+  &:hover {
+    @apply bg-red-700;
+  }
+}
+.btn-danger-outline {
+  @apply focus:ring-red-600 bg-white text-red-600 border-red-700;
+
+  &:hover {
+    @apply focus:ring-red-700 bg-red-600 text-white;
+  }
+}
+
+.btn-success {
+  @apply focus:ring-green-600 bg-green-600 text-white dark:text-white;
+
+  &:hover {
+    @apply bg-green-700;
+  }
+}
+
+.btn-success-outline {
+  @apply focus:ring-green-600 bg-white text-green-600 border-green-700;
+
+  &:hover {
+    @apply focus:ring-green-700 bg-green-600 text-white;
+  }
+}
+
+.btn-info {
+  @apply focus:ring-cyan-600 bg-cyan-600 text-white dark:text-white;
+
+  &:hover {
+    @apply bg-cyan-700;
+  }
+}
+
+.btn-info-outline {
+  @apply focus:ring-cyan-600 bg-white text-cyan-600 border-cyan-700;
+
+  &:hover {
+    @apply focus:ring-cyan-700 bg-cyan-600 text-white;
+  }
+}
+
+
+.btn-dark {
+  @apply focus:ring-zinc-400 bg-zinc-700 text-white dark:text-white;
+
+  &:hover {
+    @apply bg-zinc-700;
+  }
+}
+
+.btn-dark-outline {
+  @apply focus:ring-zinc-400 bg-white text-zinc-700 border-zinc-800;
+
+  &:hover {
+    @apply bg-zinc-700 text-white;
+  }
+}
