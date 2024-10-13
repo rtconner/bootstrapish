@@ -1,6 +1,10 @@
 
 .badge {
   @apply inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset;
+
+  a {
+    cursor: pointer;
+  }
 }
 .badge-warning {
   @apply bg-amber-50 text-amber-600 ring-amber-500/50;
