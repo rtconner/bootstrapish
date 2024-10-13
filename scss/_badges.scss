@@ -33,10 +33,10 @@
   }
 }
 .badge-info {
-  @apply bg-cyan-50 text-cyan-700 ring-cyan-500/50;
+  @apply bg-cyan-50 text-cyan-600 ring-cyan-500/50;
 
   a {
-    @apply text-cyan-700;
+    @apply text-cyan-600;
     &:hover {
       @apply text-cyan-900;
     }
