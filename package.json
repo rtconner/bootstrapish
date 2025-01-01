@@ -1,6 +1,6 @@
 {
   "name": "bootstrapish",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tailwind CSS classes grouped together into bootstrap class names",
   "sass": "scss/bootstrapish.scss",
   "scripts": {
